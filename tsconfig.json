@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es2020",
+        "moduleResolution": "node",
+        "strict": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "rootDir": "./src/main"
+    },
+    "include": [
+        "src/main/**/*"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+}
+  
